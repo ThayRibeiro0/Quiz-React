@@ -7,6 +7,7 @@
     justify-content: center;
 }
 
-.App h1{
+.App h1, h2{
     margin-bottom: 2rem;
+    text-shadow: 0.1em 0.1em 0.05em rgb(3, 3, 42);
 }
