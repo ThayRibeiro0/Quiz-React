@@ -6,6 +6,7 @@ const STAGES = ["Start", "Playing", "End"]
 const initialState = {
     gameStage: STAGES[0],
     questions,
+    currentQuestions: 0,
 };
 
 const quizReducer = (state, action) => {
