@@ -19,7 +19,7 @@ const onSelectOption = (option) => {
   return (
   <div id="question">
     <p>
-      Pergunta {quizState.currentQuestions + 1} de {quizState.questions.length}
+      Question {quizState.currentQuestions + 1} of {quizState.questions.length}
     </p>
     <h2>{currentQuestions.question}</h2>
     <div id="options-container">
@@ -34,7 +34,7 @@ const onSelectOption = (option) => {
     </div>
     {quizState.answerSelected && (
     <button onClick={() => dispatch({ type: "CHANGE_QUESTION" })}>
-      Continuar
+      Continue
     </button>
     )}
   </div>

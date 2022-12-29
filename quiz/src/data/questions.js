@@ -1,32 +1,31 @@
 const data = [
     {
-      question: "Qual a cor da bandeira do brasil?",
+      question: "What color is the flag of Brazil?",
       options: [
-        "Branco e preto",
-        "Amarelo e roxo",
-        "Cinza, preto, branco e prata",
-        "Amarelo, azul, verde, amarelo e branco",
+        "White and Black",
+        "Yellow and Purple",
+        "Grey, Black, White e Green",
+        "Yellow, Blue, Green, Yellow and White",
       ],
-      answer: "Amarelo, azul, verde, amarelo e branco",
+      answer: "Yellow, Blue, Green, Yellow and White",
     },
     {
-      question: "Qual o maior estado do Brasil?",
-      options: ["maranhao", "sao paulo", "parana", "amazonas"],
-      answer: "amazonas",
+      question: "What is the biggest state in Brazil?",
+      options: ["Maranhao", "Sao paulo", "Paraná", "Amazon"],
+      answer: "Amazon",
     },
     {
-      question: "Qual a fruta mais amada do Brasil?",
-      options: ["Maca", "pera", "morango", "banana"],
-      answer: "banana",
+      question: "What is the most loved fruit in Brazil?",
+      options: ["Apple", "Pear", "Strawberry", "Banana"],
+      answer: "Banana",
     },
     {
-      question: "Qual dos filmes brasileiros mais assistidos na semana de outubro de 2022?",
-      options: ["Esposa de Aluguel", "Se ela danca eu danco", "Meu pai e uma peca", "Bela e a fera"],
-      answer: "Esposa de Aluguel",
+      question: "Which of the most watched Brazilian films in the week of October 2022?",
+      options: ["Someone Borrowed", "Step Up", "My Mom Is a Character", "Beautiful and the Beast"],
+      answer: "Someone Borrowed",
     },
     {
-      question:
-        "Qual o nome do personagem pateta em ingles?",
+      question: "What is the name of the goofy character in English?",
       options: ["Poddy", "Goofy", "Donald", "Moddy"],
       answer: "Goofy",
     },

@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Quiz de Programacao</h1>
+      <h1>Programming Quiz</h1>
       {quizState.gameStage === "Start" && <Welcome />}
       {quizState.gameStage === "Playing" && <Question />}
       {quizState.gameStage === "End" && <GameOver />}
