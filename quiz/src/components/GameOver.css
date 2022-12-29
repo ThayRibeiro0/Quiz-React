@@ -1,6 +1,6 @@
 #gameover {
     text-align: center;
-    max-width: 500px;
+    max-width: 10%;
     display: flex;
     flex-direction: column;
   }
@@ -14,7 +14,12 @@
     color: #3587de;
 }
   
-#gameover img {
-    margin: 2rem;
-    height: 100px;
+.imagemfiz {
+    margin-top: 2rem;
+    width: 10px;
+}
+
+.botao {
+    display: flex;
+    flex-wrap: wrap;
 }

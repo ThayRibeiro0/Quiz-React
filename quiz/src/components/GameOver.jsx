@@ -1,21 +1,21 @@
 import { useContext} from 'react';
 import { QuizContext } from '../context/quiz';
 
-import WellDone from '../img/gameover.png';
+import WellDone from '../img/okay1.svg';
 
 const GameOver = () => {
   const [quizState, dispatch] = useContext(QuizContext);
   
 
   return (
-    <div id='gameover'>
+    <div id="gameover">
         <h2>Fim de Jogo!</h2>
         <p>Pontuacao: {quizState.score}</p>
         <p>Voce acertou {quizState.score} de {quizState.questions.length} {""}
         perguntas.
         </p>
-        <img src={WellDone} alt="Fim do Quiz" />
-        <button onClick={() => dispatch({type: "NEW_GAME"})}>Reiniciar</button>
+        <img className='imagemfiz' src={WellDone} style={{ minWidth: "450px", display: "flex" }} alt="Fim do Quiz"/>
+        <button className='botao' onClick={() => dispatch({type: "NEW_GAME"})}>Reiniciar</button>
     </div>
   );
 };
