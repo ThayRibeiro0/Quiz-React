@@ -1,7 +1,7 @@
 import { useContext} from 'react';
 import { QuizContext } from '../context/quiz';
 
-import WellDone from '../img/okay.png';
+import WellDone from '../img/welldone.svg';
 
 const GameOver = () => {
   return (
