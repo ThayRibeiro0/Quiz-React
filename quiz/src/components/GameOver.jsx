@@ -1,7 +1,7 @@
 import { useContext} from 'react';
 import { QuizContext } from '../context/quiz';
 
-import WellDone from '../img/welldone.svg';
+import WellDone from '../img/gameover.png';
 
 const GameOver = () => {
   const [quizState, dispatch] = useContext(QuizContext);
