@@ -24,6 +24,7 @@ The project use the node_modules, javascript.jsx and javascript.js, react, html 
 
 ## Installation
 
+### cd quiz
 ### `npm install`
 ### `npm install -g npm@10.2.0`
 ### `npm run dev` - 
