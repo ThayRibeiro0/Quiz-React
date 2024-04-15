@@ -36,4 +36,4 @@ Shortcuts
   press q to quit
 
 ## Referência
-- [Youtube] - APRENDA REACT EM 2 HORAS - CRIE SEU PRIMEIRO PROJETO EM REACT | Matheus Battisti - Hora de Codar - (https://www.youtube.com/watch?v=pOVyVivyfok&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO&index=42)
+- [Youtube] - APRENDA REACT EM 2 HORAS - CRIE SEU PRIMEIRO PROJETO EM REACT | Matheus Battisti - Hora de Codar - (https://www.youtube.com/watch?v=HlkbeikH8cs)
